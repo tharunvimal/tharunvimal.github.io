@@ -102,3 +102,27 @@ a{
 .blank{
   height:80px;
 }
+
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  #p{
+    margin-left:100px;
+  }
+  #img11{
+    height:40px;
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  #img2{
+    height:40px;
+    float:right;
+    margin-right:80px;
+    margin-top:-78px;
+
+  }
+
+
+
+
+}
