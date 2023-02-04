@@ -119,25 +119,30 @@ a{
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
   .ul{
+      font-family: hel;
+      font-size:26px;
+      grid-gap: 40px;
+      margin-top: 30px;
 
   }
 
   .container{
-    margin-left:-287px;
+    margin-left:-312px;
+
   }
   #img{
     align-items: baseline;
     align-content: center;
-    margin-left:270px;
-    height:80%;
-    width:47%;
+    margin-left:160px;
+    height:100%;
+    width:67%;
     border-radius: 50%;
     margin-top:100px;
   }
   #h1{
     color:white;
     font-family: tharun;
-    font-size:60px;
+    font-size:84px;
     text-align: center;
     margin-top: 50px;
   }
@@ -151,7 +156,7 @@ a{
   #p{
     font-family: hel;
     color:white;
-    font-size:45px;
+    font-size:75px;
     text-align: center;
     width:80%;
     margin-top:10px;
@@ -162,13 +167,13 @@ a{
 
     display:flex;
     flex-direction: row;
-    grid-gap:30px;
-    margin-left:335px;
+    grid-gap:60px;
+    margin-left:265px;
 
   }
   .icons img{
-    height:127px;
-    width:108px;
+    height:137px;
+    width:118px;
   }
 
 }
