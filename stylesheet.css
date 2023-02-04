@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('HelveticaNeueLTStd-Blk.woff2') format('woff2'),
+        url('HelveticaNeueLTStd-Blk.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Somatic Rounded';
+    src: url('Somatic-Rounded.woff2') format('woff2'),
+        url('Somatic-Rounded.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

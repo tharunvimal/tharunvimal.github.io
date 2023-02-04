@@ -1,0 +1,104 @@
+*{
+margin:0;
+padding:0;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+
+body{
+  background-color: rgba(3,3,3,0.92);
+}
+
+.container{
+  height:50px;
+  display: flex;
+  flex-direction: row;
+  grid-gap:17px;
+  margin-top:20px;
+  z-index: 999;
+  
+}
+
+
+@font-face {
+  font-family: hel;
+  src: url("Somatic-Rounded.woff") format("woff");
+}
+
+#h1{
+  font-family: hel;
+  color:white;
+  font-size:20px;
+  margin-top: 5px;
+
+}
+
+#return{
+  height:30px;
+  margin-left: 30px;
+}
+
+#return:hover{
+  opacity:0.5;
+}
+
+
+
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+#h1:hover{
+  border-bottom: 2px solid white;
+
+}
+@font-face {
+  font-family: gotham;
+  src:url("Gotham-Book.woff") format("woff");
+
+}
+
+#heading{
+  font-family:gotham;
+  color:white;
+  font-size:30px;
+  text-align: center;
+}
+
+#p{
+  font-family:gotham;
+  color:white;
+  font-size:28px;
+  text-align: center;
+  width:80%;
+  align:center;
+  align-items: center;
+  align-content: center;
+  margin-left: 150px;
+  margin-top: -43px;
+
+
+}
+
+#img1{
+  height:40px;
+  margin-left: 90px;
+  margin-top: 60px;
+}
+#img2{
+  height:40px;
+  float:right;
+  margin-right:110px;
+  margin-top:-58px;
+
+}
+
+.blank{
+  height:80px;
+}
