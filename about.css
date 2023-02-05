@@ -20,7 +20,7 @@ body{
   grid-gap:17px;
   margin-top:20px;
   z-index: 999;
-  
+
 }
 
 
@@ -102,12 +102,17 @@ a{
 .blank{
   height:80px;
 }
+#img11{
+  height:40px;
+  margin-left: 90px;
+  margin-top: 60px;
+}
 
 
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
   #p{
-    margin-left:100px;
+    margin-left:90px;
   }
   #img11{
     height:40px;
@@ -120,6 +125,18 @@ a{
     margin-right:80px;
     margin-top:-78px;
 
+  }
+  #h1{
+    font-family: hel;
+    color:white;
+    font-size:40px;
+    margin-top: 15px;
+
+  }
+
+  #return{
+    height:60px;
+    margin-left: 30px;
   }
 
 
